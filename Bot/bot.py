@@ -13,18 +13,18 @@ client = discord.Client(intents=discord.Intents.all())
 intents = discord.Intents.all()
 
 token = 'token'
-my_server = 1007571198261071902
+my_server = 00000000000000000 #add your server id
 
 
 @client.event
 async def on_ready():
     for server in client.guilds:
         serverId = server.id
-        if server.id != my_server:
+        if server.id != my_server:#makes this bot leave everyserver except (my_server) on_ready
             await client.get_guild(serverId).leave()
             print('we left ', server)
 
-    await client.change_presence(activity=discord.Game(name="playing a game"))
+    await client.change_presence(activity=discord.Game(name="playing a game")) #sets activity on
     print(f'We have logged in as {client.user}')
 
     for member in client.get_all_members():
@@ -41,20 +41,20 @@ async def on_ready():
 
 
 @client.event
-async def on_member_join(member, server):
+async def on_member_join(member, server):       #On member join it will display a member joined the server message and also a dm
     await client.get_channel(1007571199024431126).send(f"{member.name} has joined")
     await member.send(f'Welcome to the server')
 
 
 @client.event
-async def on_member_remove(member, server):
+async def on_member_remove(member, server):         #on member leave it will display member has left the server
     await client.get_channel(1007571199024431126).send(f"{member.name} has left")
 
 
 @client.event
 async def on_server_join(server):
     serverId = server.id
-    print('left the server ', server)
+   # print('left the server ', server)
     if server != my_server:
         await client.get_guild(serverId).leave()
         print('we left ', server)
@@ -65,7 +65,7 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.content.startswith('!roll'):
+    if message.content.startswith('!roll'):     #gets a random number used to roll a die
         await message.channel.send(random.randint(1, 6))
 
     if message.content.startswith('!hello'):
