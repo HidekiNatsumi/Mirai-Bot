@@ -1,2 +1,3 @@
 # Mirai-Bot
-Discord,py
+
+Using Discord.py api
