@@ -12,7 +12,7 @@ client = discord.Client(intents=discord.Intents.all())
 
 intents = discord.Intents.all()
 
-token = 'OTQ5Njc2NTQ2NDY4MjI1MDc0.Gsp7zP.pvYkmiP80VSrgd8S-3bUaVdUfZhMUC8ZHe91qM'
+token = 'token'
 my_server = 1007571198261071902
 
 
