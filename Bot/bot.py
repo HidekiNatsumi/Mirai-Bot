@@ -24,7 +24,7 @@ async def on_ready():
             await client.get_guild(serverId).leave()
             print('we left ', server)
 
-    await client.change_presence(activity=discord.Game(name="playing a game")) #sets activity on
+    await client.change_presence(activity=discord.Game(name="Visual Studio Code")) #sets activity on
     print(f'We have logged in as {client.user}')
 
     for member in client.get_all_members():
