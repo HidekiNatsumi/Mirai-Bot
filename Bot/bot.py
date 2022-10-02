@@ -28,16 +28,10 @@ async def on_ready():
     print(f'We have logged in as {client.user}')
 
     for member in client.get_all_members():
-        # print(member)
+        #server's member and everyone's activity
         if member.activity is not None:
             for activity in member.activities:
-                if activity.name == 'League of Legends':
-                    print(member.name, 'is a no lifer since he is playing', activity.name)
-
-                if activity.name == 'Spotify':
-                    print(member.name, 'is playing', activity.title, 'by', activity.artist)
-                    await client.get_channel(1007571199024431126).send(
-                        f"{member.name} is playing {activity.title} by {activity.artist}")
+                print(member,'is playing',activity)
 
 
 @client.event
