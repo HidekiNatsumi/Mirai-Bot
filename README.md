@@ -6,7 +6,7 @@ Spotify
 -
 Currently working on music connection and detection of the members of the server and displaying them on a command call.
 
-<strong>Future idea</strong>:Working with <strong>Spotify</strong> or <strong>Youtube</strong> api and making this bot able to play songs on Discord voice Channels.
+<strong>Future idea</strong>: Connecting <strong>Spotify</strong> or <strong>Youtube</strong> api and making this bot able to play songs on Discord voice Channels.
 
 Bot Functionalities
 -
