@@ -17,7 +17,7 @@ Bot Functionalities
          makes bot join only one server
          die roll command
          checks server's members activity 
-         check spotify overlay
+         checks spotify overlay
          
  ---
 <strong>Contributors :[Hideki Natsumi](https://github.com/HidekiNatsumi) 
