@@ -2,7 +2,10 @@
 
 Using Discord.py api
 -
+
+
 Functionalities
+-
 
           sends Welcoming message on server join
           sends private message on server join
