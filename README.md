@@ -2,7 +2,7 @@
 
 Using Discord.py api
 
-Future Updates
+Upcoming Changes
 -
 Currently working on music connection and detection of the members of the server and displaying them on a command call.
 
