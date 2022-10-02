@@ -2,7 +2,7 @@
 
 Using Discord.py api
 
-Spotify
+Future Updates
 -
 Currently working on music connection and detection of the members of the server and displaying them on a command call.
 
