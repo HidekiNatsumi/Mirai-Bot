@@ -70,7 +70,18 @@ async def on_message(message):
 
     if message.content.startswith('!hello'):
         await message.channel.send('Hello!')
-
+        
+    if message.content.startswith('!spotify'):
+        #checks if the member who sent the message is listening to a spotify song
+        for member in client.get_all_members():
+            # print(member)
+            if member == message.author:
+                if member.activity is not None:
+                    for activity in member.activities:
+                        if activity.name == 'Spotify':
+                            channel = message.channel
+                            await client.get_channel(channel.id).send(
+                                f"{member.name} is playing {activity.title} by {activity.artist}")
     if message.author == client.user:
         return
 
