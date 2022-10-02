@@ -19,5 +19,14 @@ Bot Functionalities
          checks server's members activity 
          checks spotify overlay
          
+ 
+ Commands
+ -
+ <ul>
+  <li>!hello</li>
+  <li>!roll</li>
+  <li>!spotify</li>
+ </ul>
+         
  ---
 <strong>Contributors :[Hideki Natsumi](https://github.com/HidekiNatsumi) 
