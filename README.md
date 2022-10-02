@@ -13,4 +13,5 @@ Functionalities
          checks server's members activity 
          and spotify overlay
          
- 
+ ---
+<strong>Contributors :[Hideki Natsumi](https://github.com/HidekiNatsumi) 
