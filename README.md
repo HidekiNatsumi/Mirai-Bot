@@ -4,7 +4,7 @@ Using Discord.py api
 
 Upcoming Changes
 -
-Member now can use (!spotify) command to check their spotify activity(song name,artist)
+Member now can use (!spotify) command to check their spotify activity (song name,artist)
 
 <strong>Future idea</strong>: Connecting <strong>Spotify</strong> or <strong>Youtube</strong> api and making this bot able to play songs on Discord voice Channels.
 
