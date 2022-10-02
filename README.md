@@ -4,7 +4,7 @@ Using Discord.py api
 
 Upcoming Changes
 -
-Currently working on music connection and detection of the members of the server and displaying them on a command call.
+Member now can use (!spotify) command to check their spotify activity(song name,artist)
 
 <strong>Future idea</strong>: Connecting <strong>Spotify</strong> or <strong>Youtube</strong> api and making this bot able to play songs on Discord voice Channels.
 
@@ -17,7 +17,7 @@ Bot Functionalities
          makes bot join only one server
          die roll command
          checks server's members activity 
-         and spotify overlay
+         check spotify overlay
          
  ---
 <strong>Contributors :[Hideki Natsumi](https://github.com/HidekiNatsumi) 
