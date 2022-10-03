@@ -14,7 +14,7 @@ Bot Functionalities
          sends Welcoming message on server join 
          sends private message on server join 
          sends left server message on server leave
-         makes bot join only one server
+         makes bot join only on one server
          die roll command
          checks server's members activity 
          checks spotify overlay
