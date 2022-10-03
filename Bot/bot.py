@@ -36,12 +36,14 @@ async def on_ready():
 
 @client.event
 async def on_member_join(member, server):       #On member join it will display a member joined the server message and also a dm
+    print(member1.name, 'has joined')
     await client.get_channel('servers channel').send(f"{member.name} has joined")
     await member.send(f'Welcome to the server')
 
 
 @client.event
 async def on_member_remove(member, server):         #on member leave it will display member has left the server
+    print(member1.name, 'has left')
     await client.get_channel('servers channel').send(f"{member.name} has left")
 
 
